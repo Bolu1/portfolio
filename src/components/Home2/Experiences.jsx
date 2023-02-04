@@ -7,7 +7,7 @@ const MyProjects = () => {
     <div>
       <div className="w-full h-full py-5 pb-20 text-white bg-black flex lg:hidden">
         <div className="w-full h-full px-3 pt-8">
-          <h1 className="text-[32px] large-texts">Experiences</h1>
+          <h1 className="text-[32px] large-texts">My Experiences</h1>
           <div className="w-full mt-6 grid grid-cols-1 gap-y-10">
             {projects.map((project, index) => {
               return (
