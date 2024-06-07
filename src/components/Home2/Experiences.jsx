@@ -2,9 +2,10 @@ import React from "react";
 import { projects } from "../../data/experiences";
 import { BiArrowToRight, BiLinkExternal } from "react-icons/bi";
 import { AiFillGithub } from "react-icons/ai";
+import { formatText } from "../../utils/formatter";
 const MyProjects = () => {
   return (
-    <div>
+    <div id="experience" >
       <div className="w-full h-full py-5 pb-20 text-white bg-black flex lg:hidden">
         <div className="w-full h-full px-3 pt-8">
           <h1 className="text-[32px] large-texts">My Experiences</h1>
@@ -22,7 +23,7 @@ const MyProjects = () => {
                     </div>
                   </div>
                   <div className="mt-4">
-                    <p className="text-lg">{project.about}</p>
+                    <p className="text-lg">{formatText(project.about)}</p>
                     <p className="text-lg mt-2">
                     Technologies used : {project.tools}
                     </p>

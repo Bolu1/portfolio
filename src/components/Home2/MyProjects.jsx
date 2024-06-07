@@ -4,7 +4,7 @@ import { BiArrowToRight, BiLinkExternal } from "react-icons/bi";
 import { AiFillGithub } from "react-icons/ai";
 const MyProjects = () => {
   return (
-    <div>
+    <div id="works" >
       <div className="w-full h-full py-5 pb-20 text-white bg-black flex lg:hidden">
         <div className="w-full h-full px-3 pt-8">
           <h1 className="text-[42px] font-bold  my-7">My Projects</h1>

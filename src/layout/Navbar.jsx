@@ -37,13 +37,13 @@ const Navbar = () => {
 
           <ul className="hidden items-center space-x-10 md:flex">
             <li className="headerLink">
-              <Link to="#">Home</Link>
+              <a href="#">Home</a>
             </li>
             <li className="headerLink">
-              <Link to="#about">About</Link>
+              <a href="#about">About</a>
             </li>
             <li className="headerLink">
-              <Link href="#works">Works</Link>
+              <a href="#works">Works</a>
             </li>
             <li className="headerLink">
               <a href="#experience">Experience</a>
@@ -53,8 +53,8 @@ const Navbar = () => {
             </li>
 
   <a
-download="Bolu Adetifa Resume"
-              href={resume}
+              href="https://docs.google.com/document/d/1o7UQG8fySF2Uu82c19je_sVvQKJoxDqcnenoOPVNIH8/edit?usp=sharing"
+              target="_blank"
               >
             <a
               

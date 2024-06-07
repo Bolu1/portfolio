@@ -109,7 +109,7 @@ const Hero = () => {
                 animate={{ y: 0, opacity: 1 }}
                 exit={{ y: -10, opacity: 0 }}
                 transition={{ duration: 0.5 }}
-                className=" text-[24px] text-center"
+                className=" text-[20px] text-center"
               >
                 A software developer with three years of experience in building full stack software with modern technologies mainly in backend engineering. With interest in building software products to provide value for people. I currently use JavaScript and Golang.
               </motion.p>
@@ -144,7 +144,7 @@ const Hero = () => {
                 animate={{ y: 0, opacity: 1 }}
                 exit={{ y: -10, opacity: 0 }}
                 transition={{ duration: 0.5 }}
-                className=" text-[26px] "
+                className=" text-[20px] "
               >
                 A software developer with three years of experience in building full stack software with modern technologies mainly in backend engineering. With interest in building software products to provide value for people. I currently use JavaScript and Golang.
               </motion.p>

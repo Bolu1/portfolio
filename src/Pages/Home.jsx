@@ -15,14 +15,14 @@ const Home = () => {
   return (
     <div>
       <Navbar />
-      <SmoothScroll>
+      {/* <SmoothScroll> */}
         <Hero />
         <About />
         <Experiences />
         <MyProjects />
         <Contact />
         <Foote />
-      </SmoothScroll>
+      {/* </SmoothScroll> */}
       {/* <Hero /> */}
       {/* <Projects /> */}
       <motion.div
