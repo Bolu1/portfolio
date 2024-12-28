@@ -79,11 +79,101 @@ const Sidebar = ({ setIsSidebarOpen, isSidebarOpen }) => {
                   location.pathname === "/" ? "activeLink" : ""
                 }`}
               >
-                <Link to={"/"}>
-                  <motion.a className="text-[#ddd] text-[1.3rem] tracking-[2.7px] uppercase">
+                <motion.a className="text-[#ddd] text-[1.3rem] tracking-[2.7px] uppercase">
+                  <a href="/#">
                     <span className="text-white  mr-[11px]">00</span> Home
-                  </motion.a>
-                </Link>
+                  </a>
+                </motion.a>
+              </motion.li>
+              <motion.li
+                variants={itemvariants}
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.95 }}
+                // animate={isSidebarOpen && "closed"}
+                onClick={() => {
+                  setIsSidebarOpen(!isSidebarOpen);
+                }}
+                className={`relative w-full mb-[1.5rem] ${
+                  location.pathname === "/#about" ? "activeLink" : ""
+                }`}
+              >
+                <motion.a className="text-[#ddd] text-[1.3rem] tracking-[2.7px] uppercase">
+                  <a href="#about">
+                    <span className="text-white  mr-[11px]">01</span> About
+                  </a>
+                </motion.a>
+              </motion.li>
+              <motion.li
+                variants={itemvariants}
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.95 }}
+                // animate={isSidebarOpen && "closed"}
+                onClick={() => {
+                  setIsSidebarOpen(!isSidebarOpen);
+                }}
+                className={`relative w-full mb-[1.5rem] ${
+                  location.pathname === "/#projects" ? "activeLink" : ""
+                }`}
+              >
+                <motion.a className="text-[#ddd] text-[1.3rem] tracking-[2.7px] uppercase">
+                  <a href="#projects">
+                    <span className="text-white  mr-[11px]">02</span> Projects
+                  </a>
+                </motion.a>
+              </motion.li>
+              <motion.li
+                variants={itemvariants}
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.95 }}
+                // animate={isSidebarOpen && "closed"}
+                onClick={() => {
+                  setIsSidebarOpen(!isSidebarOpen);
+                }}
+                className={`relative w-full mb-[1.5rem] ${
+                  location.pathname === "/#experience" ? "activeLink" : ""
+                }`}
+              >
+                <motion.a className="text-[#ddd] text-[1.3rem] tracking-[2.7px] uppercase">
+                  <a href="#experience">
+                    <span className="text-white  mr-[11px]">03</span> Experience
+                  </a>
+                </motion.a>
+              </motion.li>
+              <motion.li
+                variants={itemvariants}
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.95 }}
+                // animate={isSidebarOpen && "closed"}
+                onClick={() => {
+                  setIsSidebarOpen(!isSidebarOpen);
+                }}
+                className={`relative w-full mb-[1.5rem] ${
+                  location.pathname === "/#contact" ? "activeLink" : ""
+                }`}
+              >
+                <motion.a className="text-[#ddd] text-[1.3rem] tracking-[2.7px] uppercase">
+                  <a href="#contact">
+                    <span className="text-white  mr-[11px]">04</span> Contact
+                  </a>
+                </motion.a>
+              </motion.li>
+              <motion.li
+                variants={itemvariants}
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.95 }}
+                // animate={isSidebarOpen && "closed"}
+                onClick={() => {
+                  setIsSidebarOpen(!isSidebarOpen);
+                }}
+                className={`relative w-full mb-[1.5rem] ${
+                  location.pathname === "/" ? "activeLink" : ""
+                }`}
+              >
+                <motion.a className="text-[#ddd] text-[1.3rem] tracking-[2.7px] uppercase">
+                  <a href="https://medium.com/@adetifaboluwatife" target="_">
+                    <span className="text-white  mr-[11px]">05</span> Blog
+                  </a>
+                </motion.a>
               </motion.li>
               <motion.li
                 onClick={() => {
@@ -91,7 +181,7 @@ const Sidebar = ({ setIsSidebarOpen, isSidebarOpen }) => {
                 }}
                 variants={itemvariants}
                 className={`relative w-full mb-[1.5rem] ${
-                  location.pathname === "/about" ? "activeLink" : ""
+                  location.pathname === "/" ? "activeLink" : ""
                 }`}
               >
                 <a
@@ -99,11 +189,11 @@ const Sidebar = ({ setIsSidebarOpen, isSidebarOpen }) => {
                   target="_blank"
                   className="text-[#ddd] text-[1.3rem] tracking-[2.7px] uppercase"
                 >
-                  <span className="text-white  mr-[11px]">01</span> Resume
+                  <span className="text-white  mr-[11px]">06</span> Resume
                 </a>
               </motion.li>
             </motion.ul>
-            <motion.div className="w-full  h-10 border-t border-t-gray-200"></motion.div>
+            <motion.div className="w-full h-10 border-t border-t-gray-200"></motion.div>
           </motion.nav>
         </div>
       </motion.aside>

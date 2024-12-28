@@ -89,11 +89,11 @@ const Hero = () => {
   }, []);
 
   return (
-    <div className="w-full bg-black text-white ">
+    <div className="w-full text-white bg-black ">
       <AnimatePresence exitBeforeEnter>
         {/* mobile */}
         <div className="w-full h-[45rem] relative lg:hidden flex pt-20 bg-black text-white">
-          <div className="w-full  space-y-10 h-full flex justify-center flex-col">
+          <div className="flex flex-col justify-center w-full h-full space-y-10">
             <div className="w-full h-[14rem] ">
               <motion.h1
                 initial={{ y: 10, opacity: 0 }}
@@ -111,7 +111,7 @@ const Hero = () => {
                 transition={{ duration: 0.5 }}
                 className=" text-[20px] text-center"
               >
-                A software developer with three years of experience in building full stack software with modern technologies mainly in backend engineering. With interest in building software products to provide value for people. I currently use JavaScript and Golang.
+                A software engineer passionate about building full-stack software using modern technologies, with a primary focus on backend engineering. Driven by a commitment to developing software products that provide meaningful value to users. Proficient in Rust, Typescript, Python, and Java, and skilled in creating scalable and efficient systems.
               </motion.p>
             </div>
             <div className="w-full h-[20rem]  flex justify-center  ">
@@ -126,9 +126,9 @@ const Hero = () => {
         {/* desktop */}
         {/* <SmoothScroll> */}
         <div className="w-full h-[45rem] lg:flex hidden mx-auto 2xl:max-w-[90rem] lg:max-w-[75rem]">
-          <div className="w-full h-full lg:px-6 xl:px-0 flex items-center pt-20 justify-between">
+          <div className="flex items-center justify-between w-full h-full pt-20 lg:px-6 xl:px-0">
             <div className="w-[47%] h-[20rem]  ">
-              <div className="flex space-x-4 items-center">
+              <div className="flex items-center space-x-4">
                 <motion.h1
                   initial={{ y: 10, opacity: 0 }}
                   animate={{ y: 0, opacity: 1 }}
@@ -146,7 +146,7 @@ const Hero = () => {
                 transition={{ duration: 0.5 }}
                 className=" text-[20px] "
               >
-                A software developer with three years of experience in building full stack software with modern technologies mainly in backend engineering. With interest in building software products to provide value for people. I currently use JavaScript and Golang.
+                A software engineer passionate about building full-stack software using modern technologies, with a primary focus on backend engineering. Driven by a commitment to developing software products that provide meaningful value to users. Proficient in Rust, Typescript, Python, and Java, and skilled in creating scalable and efficient systems.
               </motion.p>
             </div>
             <div className="w-[50%] h-[35rem] flex justify-center items-center">

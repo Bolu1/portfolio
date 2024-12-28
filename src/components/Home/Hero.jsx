@@ -51,7 +51,7 @@ const Hero = () => {
                   </svg>
                 </span>
                 <span class="absolute text-lg flex items-center justify-center w-full h-full text-black transition-all duration-300 transform group-hover:translate-x-full ease">
-                  See my works
+                  See my projects
                 </span>
                 <span class="relative invisible">Button Text</span>
               </a>

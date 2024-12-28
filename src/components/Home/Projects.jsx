@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const Projects = () => {
   return (
@@ -9,7 +9,7 @@ const Projects = () => {
             <h1 className="2xl:text-[43px] text-[35px] font-bold">
               Yo! Check this out
             </h1>
-            <p className="text-xl">Here are few of my recent works</p>
+            <p className="text-xl">Here are few of my recent projects</p>
           </div>
         </div>
       </div>
