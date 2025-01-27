@@ -1,9 +1,22 @@
-import gbese from "./../assets/images/home/gbese.png";
-import nowalls from "./../assets/images/home/nowalls.png";
+import scapewalkers from "./../assets/images/home/scapewalkers.png";
 import lms from "./../assets/images/home/lms.jpg";
 export const projects = [
   {
     id: "01",
+    name: "Scapewalkers",
+    about: `
+      Designed and developed modern, sustainable architectural solutions for residential and commercial spaces.
+      Implemented 3D visualization tools to provide clients with interactive design previews.
+      Developed an automated project management system to streamline architectural workflows.
+      Integrated eco-friendly building materials and energy-efficient designs into projects.
+      Created a digital portfolio system showcasing completed projects and ongoing developments.
+      `,
+    image: scapewalkers,
+    tools: "Typescript, React JS, Tailwind",
+    link: "https://www.scapewalkers.com/",
+  },
+  {
+    id: "02",
     name: "LMS",
     about: `
       Created a learning management system for educators and students
